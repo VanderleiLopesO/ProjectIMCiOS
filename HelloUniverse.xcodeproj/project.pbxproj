@@ -54,8 +54,8 @@
 		AF5F646F20C5C03900B6AB25 /* HelloUniverse */ = {
 			isa = PBXGroup;
 			children = (
-				AF5F647020C5C03900B6AB25 /* AppDelegate.swift */,
 				AF5F647220C5C03900B6AB25 /* ViewController.swift */,
+				AF5F647020C5C03900B6AB25 /* AppDelegate.swift */,
 				AF5F647420C5C03900B6AB25 /* Main.storyboard */,
 				AF5F647720C5C03A00B6AB25 /* Assets.xcassets */,
 				AF5F647920C5C03A00B6AB25 /* LaunchScreen.storyboard */,
