@@ -83,8 +83,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1ud-qH-7Bl">
-                                        <rect key="frame" x="40" y="90" width="295" height="278"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1ud-qH-7Bl">
+                                        <rect key="frame" x="32" y="90" width="311" height="270"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -92,12 +92,13 @@
                                     <constraint firstAttribute="trailingMargin" secondItem="92K-eY-C45" secondAttribute="trailing" constant="16" id="49W-78-IFF"/>
                                     <constraint firstItem="92K-eY-C45" firstAttribute="leading" secondItem="FKc-xZ-njw" secondAttribute="leadingMargin" constant="16" id="59u-aw-gjO"/>
                                     <constraint firstItem="1ud-qH-7Bl" firstAttribute="top" secondItem="92K-eY-C45" secondAttribute="bottom" constant="16" id="6PQ-cI-PUo"/>
+                                    <constraint firstItem="1ud-qH-7Bl" firstAttribute="leading" secondItem="FKc-xZ-njw" secondAttribute="leadingMargin" constant="24" id="BFy-gu-U3H"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="1ud-qH-7Bl" secondAttribute="trailing" constant="24" id="Eyv-7R-tgJ"/>
                                     <constraint firstItem="tqB-dE-wtD" firstAttribute="top" secondItem="FKc-xZ-njw" secondAttribute="top" constant="16" id="ZH9-2r-gFY"/>
-                                    <constraint firstItem="1ud-qH-7Bl" firstAttribute="leading" secondItem="FKc-xZ-njw" secondAttribute="leading" constant="40" id="cKG-pE-l3V"/>
                                     <constraint firstItem="92K-eY-C45" firstAttribute="top" secondItem="tqB-dE-wtD" secondAttribute="bottom" constant="16" id="dDw-ai-MjM"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="1ud-qH-7Bl" secondAttribute="bottom" constant="16" id="dZ0-xE-7il"/>
                                     <constraint firstItem="tqB-dE-wtD" firstAttribute="centerX" secondItem="FKc-xZ-njw" secondAttribute="centerX" id="fBj-H7-ST1"/>
-                                    <constraint firstAttribute="trailing" secondItem="1ud-qH-7Bl" secondAttribute="trailing" constant="40" id="pte-DF-k6f"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="1ud-qH-7Bl" secondAttribute="bottom" constant="24" id="ncX-so-7Ig"/>
+                                    <constraint firstItem="1ud-qH-7Bl" firstAttribute="top" secondItem="92K-eY-C45" secondAttribute="bottom" constant="16" id="xEA-uH-HP7"/>
                                 </constraints>
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: 1.75" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X7P-bF-YQT">
